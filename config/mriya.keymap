@@ -17,10 +17,21 @@
 
 &mt {
     quick_tap_ms = <200>;
-    tapping-term-ms = <400>;
+    tapping-term-ms = <200>;
 };
 
 / {
+    behaviors {
+        hold_tap: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -36,11 +47,11 @@
 
         lower_layer {
             bindings = <
-        &kp GRAVE       &kp F1  &kp F2     &kp F3                &kp F4                &kp F5                   &kp F6                &kp F7                 &kp F8                &kp F9     &kp F10  &kp F11
-&trans  &kp UNDER       &trans  &kp EQUAL  &kp MINUS             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL  &trans   &trans   &kp F12
-        &mt LCTRL PLUS  &trans  &kp DEL    &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &kp DEL    &trans   &trans
-        &mt LALT EQUAL  &trans  &trans     &trans                &kp SEMICOLON         &kp SQT                  &kp SEMICOLON         &kp SQT                &trans                &trans     &trans   &trans
-                                &trans     &lt 3 TAB             &trans                &trans                   &trans                &trans                 &lt 3 DEL             &trans
+        &kp GRAVE       &kp F1  &kp F2     &kp F3                &kp F4                &kp F5                   &kp F6                             &kp F7                               &kp F8                      &kp F9                  &kp F10  &kp F11
+&trans  &kp UNDER       &trans  &kp EQUAL  &kp MINUS             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_PARENTHESIS               &kp RIGHT_PARENTHESIS                &hold_tap UNDERSCORE MINUS  &hold_tap PLUS EQUAL    &trans   &trans   &kp F12
+        &mt LCTRL PLUS  &trans  &kp DEL    &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &hold_tap LEFT_BRACE LEFT_BRACKET  &hold_tap RIGHT_BRACE RIGHT_BRACKET  &hold_tap PIPE BACKSLASH    &hold_tap CLEAR DELETE  &trans   &trans
+        &mt LALT EQUAL  &trans  &trans     &trans                &kp SEMICOLON         &kp SQT                  &hold_tap COLON SEMICOLON          &hold_tap DOUBLE_QUOTES SQT          &trans                      &trans                  &trans   &trans
+                                &trans     &lt 3 TAB             &trans                &trans                   &trans                             &trans                               &lt 3 DEL                   &trans
             >;
         };
 
