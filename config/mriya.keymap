@@ -58,11 +58,11 @@
 
         raise_layer {
             bindings = <
-        &trans           &trans           &trans     &trans     &trans     &trans          &trans        &trans          &trans            &trans      &trans           &trans
-&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp SLCK         &trans           &trans
-        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp LEFT      &kp DOWN        &kp UP            &kp RIGHT   &kp INS          &mt RCTRL K_APP
-        &trans           &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END         &trans            &kp PG_DN   &kp PAUSE_BREAK  &trans
-                                          &trans     &trans     &trans     &lt 3 RET       &lt 3 ESC     &trans          &trans            &trans
+        &trans  &trans     &trans     &trans     &trans     &trans       &trans        &trans       &trans         &trans            &trans             &trans
+&trans  &sl 3   &kp LA(Q)  &kp LA(W)  &kp LA(E)  &kp LA(R)  &kp LA(T)    &kp C_VOL_UP  &kp LA(U)    &kp LA(I)      &kp LA(K)         &kp LA(P)          &sl 3            &trans
+        &none   &kp LA(A)  &kp LA(S)  &kp LA(D)  &kp LA(F)  &kp LA(G)    &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT         &kp LA(SEMICOLON)  &mt RCTRL K_APP
+        &trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(B)    &kp C_VOL_DN  &kp LA(END)  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(SLASH)      &trans
+                           &trans     &trans     &kp SPACE  &lt 3 RET    &kp K_PP      &kp K_PREV   &trans         &kp K_NEXT
             >;
         };
 
