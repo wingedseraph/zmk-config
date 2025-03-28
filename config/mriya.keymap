@@ -59,7 +59,7 @@
         raise_layer {
             bindings = <
         &trans  &trans     &trans     &trans     &trans     &trans       &trans        &trans       &trans         &trans            &trans             &trans
-&trans  &sl 3   &kp LA(Q)  &kp LA(W)  &kp LA(E)  &kp LA(R)  &kp LA(T)    &kp C_VOL_UP  &kp LA(U)    &kp LA(I)      &kp LA(K)         &kp LA(P)          &sl 3            &trans
+&trans  &sl 3   &kp LA(Q)  &kp LA(W)  &kp LA(E)  &kp LA(R)  &kp LA(T)    &kp C_VOL_UP  &kp LA(U)    &kp LA(I)      &kp LA(O)         &kp LA(P)          &sl 3            &trans
         &none   &kp LA(A)  &kp LA(S)  &kp LA(D)  &kp LA(F)  &kp LA(G)    &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT         &kp LA(SEMICOLON)  &mt RCTRL K_APP
         &trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(B)    &kp C_VOL_DN  &kp LA(END)  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(SLASH)      &trans
                            &trans     &trans     &kp SPACE  &lt 3 RET    &kp K_PP      &kp K_PREV   &trans         &kp K_NEXT
