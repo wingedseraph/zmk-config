@@ -33,6 +33,100 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ctrl-c {
+            bindings = <&kp LC(C)>;
+            key-positions = <50 41>;
+            layers = <0>;
+        };
+
+        ctrl-v {
+            bindings = <&kp LC(V)>;
+            key-positions = <50 42>;
+            layers = <0>;
+        };
+
+        ctrl-x {
+            bindings = <&kp LC(X)>;
+            key-positions = <50 40>;
+            layers = <0>;
+        };
+
+        ctrl-z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <50 39>;
+            layers = <0>;
+        };
+
+        ctrl-a {
+            bindings = <&kp LC(A)>;
+            key-positions = <50 27>;
+            layers = <0>;
+        };
+
+        ctrl-w {
+            bindings = <&kp LC(W)>;
+            key-positions = <50 15>;
+            layers = <0>;
+        };
+
+        ctrl-s {
+            bindings = <&kp LC(S)>;
+            key-positions = <50 28>;
+            layers = <0>;
+        };
+
+        ctrl-q {
+            bindings = <&kp LC(Q)>;
+            key-positions = <50 14>;
+            layers = <0>;
+        };
+
+        ctrl-r {
+            bindings = <&kp LC(R)>;
+            key-positions = <50 17>;
+            layers = <0>;
+        };
+
+        ctrl-t {
+            bindings = <&kp LC(T)>;
+            key-positions = <50 18 50>;
+            layers = <0>;
+        };
+
+        ctrl-f {
+            bindings = <&kp LC(F)>;
+            key-positions = <50 30>;
+            layers = <0>;
+        };
+
+        ctrl-d {
+            bindings = <&kp LC(D)>;
+            key-positions = <50 29>;
+            layers = <0>;
+        };
+
+        ctrl-e {
+            bindings = <&kp LC(E)>;
+            key-positions = <50 16>;
+            layers = <0>;
+        };
+
+        ctrl-b {
+            bindings = <&kp LC(B)>;
+            key-positions = <50 43>;
+            layers = <0>;
+        };
+
+        ctrl-g {
+            bindings = <&kp LC(G)>;
+            key-positions = <50 31>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
