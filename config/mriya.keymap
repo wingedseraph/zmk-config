@@ -167,7 +167,7 @@
 &sl 3  &none   &kp LA(Q)         &kp LA(W)         &kp LA(E)         &kp LA(R)             &kp LA(T)     &kp C_VOL_UP      &kp LA(U)         &kp LA(I)         &kp LA(O)         &kp K_PLAY_PAUSE  &none            &sl 3
        &none   &kp LA(A)         &kp LA(S)         &kp LA(D)         &kp LA(F)             &kp LA(G)     &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp K_PREV        &mt RCTRL K_APP
        &trans  &kp LA(Z)         &kp LA(X)         &kp LA(C)         &kp LA(V)             &kp LA(B)     &kp C_VOL_DN      &kp K_PLAY_PAUSE  &kp LESS_THAN     &kp GREATER_THAN  &kp K_NEXT        &trans
-                                 &trans            &kp LEFT_SHIFT    &mt LEFT_SHIFT SPACE  &lt 3 RET     &kp BACKSPACE     &kp LEFT_SHIFT    &trans            &none
+                                 &kp LCTRL         &kp LEFT_SHIFT    &mt LEFT_SHIFT SPACE  &lt 3 RET     &kp BACKSPACE     &kp LEFT_SHIFT    &trans            &none
             >;
         };
 
