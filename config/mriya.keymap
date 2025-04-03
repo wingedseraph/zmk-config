@@ -86,11 +86,11 @@
 
         raise_layer {
             bindings = <
-       &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)      &kp LA(N5)    &kp LA(NUMBER_6)  &kp LA(N7)        &kp LA(NUMBER_8)  &trans            &trans            &trans
-&sl 3  &none   &kp LA(Q)         &kp LA(W)         &kp LA(E)         &kp LA(R)             &kp LA(T)     &kp C_VOL_UP      &kp LA(U)         &kp LA(I)         &kp LA(O)         &kp K_PLAY_PAUSE  &none            &sl 3
-       &none   &kp LA(A)         &kp LA(S)         &kp LA(D)         &kp LA(F)             &kp LA(G)     &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp K_PREV        &mt RCTRL K_APP
-       &trans  &kp LA(Z)         &kp LA(X)         &kp LA(C)         &kp LA(V)             &kp LA(B)     &kp C_VOL_DN      &kp K_PLAY_PAUSE  &kp LESS_THAN     &kp GREATER_THAN  &kp K_NEXT        &trans
-                                 &kp LCTRL         &kp LEFT_SHIFT    &mt LEFT_SHIFT SPACE  &lt 3 RET     &kp BACKSPACE     &kp LEFT_SHIFT    &trans            &none
+       &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)      &kp LA(N5)    &kp LA(NUMBER_6)  &kp LA(N7)      &kp LA(NUMBER_8)  &trans            &trans            &trans
+&sl 3  &none   &kp LA(Q)         &kp LA(W)         &kp LA(E)         &kp LA(R)             &kp LA(T)     &kp C_VOL_UP      &kp LA(U)       &kp LA(I)         &kp LA(O)         &kp K_PLAY_PAUSE  &none            &sl 3
+       &none   &kp LA(A)         &kp LA(S)         &kp LA(D)         &kp LA(F)             &kp LA(G)     &kp LEFT          &kp DOWN        &kp UP            &kp RIGHT         &kp K_PREV        &mt RCTRL K_APP
+       &trans  &kp LA(Z)         &kp LA(X)         &kp LA(C)         &kp LA(V)             &kp LA(B)     &kp C_VOL_DN      &kp LS(LCTRL)   &kp LESS_THAN     &kp GREATER_THAN  &kp K_NEXT        &trans
+                                 &kp LS(LCTRL)     &kp LEFT_SHIFT    &mt LEFT_SHIFT SPACE  &lt 3 RET     &kp BACKSPACE     &kp LEFT_SHIFT  &trans            &none
             >;
         };
 
