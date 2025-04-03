@@ -51,36 +51,6 @@
             bindings = <&kp ENTER>;
             key-positions = <33 34 35>;
         };
-
-        bracket {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <32 33>;
-            timeout-ms = <35>;
-        };
-
-        bracket2 {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <19 20>;
-            timeout-ms = <45>;
-        };
-
-        quotes {
-            bindings = <&kp SQT>;
-            key-positions = <44 45>;
-            timeout-ms = <35>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <30 31>;
-            timeout-ms = <45>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <17 18>;
-            timeout-ms = <35>;
-        };
     };
 
     keymap {
@@ -128,11 +98,11 @@
 
         layer_4 {
             bindings = <
-        &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)       &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)     &kp LG(N9)   &kp LC(MINUS)  &kp LC(EQUAL)
-&trans  &trans  &kp LC(Q)         &kp LC(W)         &kp LC(E)         &kp LC(R)         &kp LC(T)        &kp LC(Y)         &kp LC(U)   &kp LC(I)      &kp LC(O)    &kp LC(P)      &trans         &trans
-        &trans  &kp LC(A)         &kp LC(S)         &kp LC(D)         &kp LC(F)         &kp LC(G)        &kp LC(H)         &kp LC(J)   &kp LC(K)      &kp LC(L)    &kp LC(SEMI)   &trans
-        &trans  &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(B)        &kp LC(N)         &kp LC(M)   &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)   &trans
-                                  &trans            &kp LMETA         &trans            &kp LG(ENTER)    &trans            &trans      &trans         &trans
+           &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)       &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)     &kp LG(N9)   &kp LC(MINUS)  &kp LC(EQUAL)
+&kp LCTRL  &trans  &kp LC(Q)         &kp LC(W)         &kp LC(E)         &kp LC(R)         &kp LC(T)        &kp LC(Y)         &kp LC(U)   &kp LC(I)      &kp LC(O)    &kp LC(P)      &trans         &trans
+           &trans  &kp LC(A)         &kp LC(S)         &kp LC(D)         &kp LC(F)         &kp LC(G)        &kp LC(H)         &kp LC(J)   &kp LC(K)      &kp LC(L)    &kp LC(SEMI)   &trans
+           &trans  &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(B)        &kp LC(N)         &kp LC(M)   &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)   &trans
+                                     &trans            &kp LMETA         &trans            &kp LG(ENTER)    &trans            &trans      &trans         &trans
             >;
         };
     };
