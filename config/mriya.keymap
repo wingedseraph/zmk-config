@@ -65,6 +65,7 @@
         quotes {
             bindings = <&kp SQT>;
             key-positions = <44 45>;
+            timeout-ms = <25>;
         };
 
         equal {
@@ -75,6 +76,7 @@
         plus {
             bindings = <&kp PLUS>;
             key-positions = <17 18>;
+            timeout-ms = <25>;
         };
     };
 
