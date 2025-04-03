@@ -55,31 +55,31 @@
         bracket {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <32 33>;
-            timeout-ms = <25>;
+            timeout-ms = <35>;
         };
 
         bracket2 {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <19 20>;
-            timeout-ms = <35>;
+            timeout-ms = <45>;
         };
 
         quotes {
             bindings = <&kp SQT>;
             key-positions = <44 45>;
-            timeout-ms = <25>;
+            timeout-ms = <35>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <30 31>;
-            timeout-ms = <35>;
+            timeout-ms = <45>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <17 18>;
-            timeout-ms = <25>;
+            timeout-ms = <35>;
         };
     };
 
