@@ -24,9 +24,9 @@
 
 / {
     behaviors {
-        hold_tap: hold_tap {
+        hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP";
+            label = "HMR";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -70,21 +70,21 @@
 
         default_layer {
             bindings = <
-          &kp ESC         &kp N1  &kp N2                &kp N3                  &kp N4     &kp N5                &kp N6             &kp N7         &kp N8                       &kp N9                   &kp N0    &kp MINUS
-&kp LWIN  &kp TAB         &kp Q   &kp W                 &kp E                   &kp R      &kp T                 &kp Y              &kp U          &kp I                        &kp O                    &kp P     &kp LBKT       &kp RIGHT_BRACKET
-          &kp LEFT_SHIFT  &kp A   &kp S                 &kp D                   &kp F      &kp G                 &kp H              &kp J          &kp K                        &kp L                    &kp SEMI  &mt RCTRL SQT
-          &kp LALT        &kp Z   &hold_tap LEFT_GUI X  &hold_tap LEFT_SHIFT C  &kp V      &hold_tap LCTRL B     &hold_tap RCTRL N  &kp M          &hold_tap RIGHT_SHIFT COMMA  &hold_tap RIGHT_GUI DOT  &kp FSLH  &mt RALT BSLH
-                                  &mo 4                 &kp LEFT_ALT            &kp SPACE  &mt LEFT_WIN ENTER    &mo 1              &kp BACKSPACE  &mo 2                        &kp LS(LEFT_ALT)
+          &kp ESC         &kp N1  &kp N2           &kp N3             &kp N4     &kp N5                &kp N6        &kp N7              &kp N8     &kp N9              &kp N0    &kp MINUS
+&kp LWIN  &kp TAB         &kp Q   &kp W            &kp E              &kp R      &kp T                 &kp Y         &kp U               &kp I      &kp O               &kp P     &kp LBKT       &kp RIGHT_BRACKET
+          &kp LEFT_SHIFT  &kp A   &kp S            &kp D              &kp F      &kp G                 &kp H         &kp J               &kp K      &kp L               &kp SEMI  &mt RCTRL SQT
+          &kp LALT        &kp Z   &hmr LEFT_GUI X  &hmr LEFT_SHIFT C  &kp V      &hmr LCTRL B          &hmr RCTRL N  &hmr RIGHT_SHIFT M  &kp COMMA  &hmr RIGHT_GUI DOT  &kp FSLH  &mt RALT BSLH
+                                  &mo 4            &kp LEFT_ALT       &kp SPACE  &mt LEFT_WIN ENTER    &mo 1         &kp BACKSPACE       &mo 2      &kp LS(LEFT_ALT)
             >;
         };
 
         lower_layer {
             bindings = <
-        &kp GRAVE       &kp F1    &kp F2         &kp F3                &kp F4                &kp F5       &kp F6                &kp F7            &kp F8                    &kp F9            &kp F10  &kp F11
-&trans  &kp UNDER       &kp PLUS  &kp EQUAL      &kp MINUS             &kp LEFT_PARENTHESIS  &kp PLUS     &kp LEFT_BRACE        &kp LEFT_BRACKET  &kp EQUAL                 &kp PLUS          &trans   &trans   &kp F12
-        &mt LCTRL PLUS  &kp PIPE  &kp LS(LG(S))  &kp NON_US_BACKSLASH  &kp RIGHT_BRACE       &kp EQUAL    &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &hold_tap PIPE BACKSLASH  &kp DELETE        &trans   &trans
-        &mt LALT EQUAL  &trans    &trans         &trans                &kp DOUBLE_QUOTES     &kp COLON    &kp SQT               &kp SQT           &kp LESS_THAN             &kp GREATER_THAN  &trans   &trans
-                                  &trans         &kp LEFT_ALT          &trans                &trans       &trans                &trans            &lt 3 DEL                 &trans
+        &kp GRAVE       &kp F1    &kp F2         &kp F3                &kp F4                &kp F5       &kp F6                &kp F7            &kp F8               &kp F9            &kp F10  &kp F11
+&trans  &kp UNDER       &kp PLUS  &kp EQUAL      &kp MINUS             &kp LEFT_PARENTHESIS  &kp PLUS     &kp LEFT_BRACE        &kp LEFT_BRACKET  &kp EQUAL            &kp PLUS          &trans   &trans   &kp F12
+        &mt LCTRL PLUS  &kp PIPE  &kp LS(LG(S))  &kp NON_US_BACKSLASH  &kp RIGHT_BRACE       &kp EQUAL    &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &hmr PIPE BACKSLASH  &kp DELETE        &trans   &trans
+        &mt LALT EQUAL  &trans    &trans         &trans                &kp DOUBLE_QUOTES     &kp COLON    &kp SQT               &kp SQT           &kp LESS_THAN        &kp GREATER_THAN  &trans   &trans
+                                  &trans         &kp LEFT_ALT          &trans                &trans       &trans                &trans            &lt 3 DEL            &trans
             >;
         };
 
