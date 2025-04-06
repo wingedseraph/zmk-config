@@ -76,6 +76,31 @@
             bindings = <&kp ENTER>;
             key-positions = <33 34 35>;
         };
+
+        bracket1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <32 31>;
+        };
+
+        bracket2 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <30 33>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <17 20>;
+        };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <43 44>;
+        };
     };
 
     keymap {
