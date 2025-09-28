@@ -103,10 +103,10 @@
 
         raise_layer {
             bindings = <
-       &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)      &kp LA(N5)    &kp LA(NUMBER_6)  &kp LA(N7)      &kp LA(NUMBER_8)  &trans            &trans            &trans
-&sl 3  &none   &kp LA(Q)         &kp LA(W)         &kp LA(E)         &kp LA(R)             &kp LA(T)     &kp C_VOL_UP      &kp LA(U)       &kp LA(I)         &kp LA(O)         &kp K_PLAY_PAUSE  &none            &sl 3
-       &none   &kp LA(A)         &kp LA(S)         &kp LA(D)         &kp LA(F)             &kp LA(G)     &kp LEFT          &kp DOWN        &kp UP            &kp RIGHT         &kp K_PREV        &mt RCTRL K_APP
-       &trans  &kp LA(Z)         &kp LA(X)         &kp LA(C)         &kp LA(V)             &kp LA(B)     &kp C_VOL_DN      &kp LS(LCTRL)   &kp LESS_THAN     &kp GREATER_THAN  &kp K_NEXT        &trans
+       &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)      &kp LA(N5)    &kp LA(NUMBER_6)  &kp LA(N7)      &kp LA(NUMBER_8)  &kp F22           &kp F23  &kp F24
+&sl 3  &none   &kp LA(Q)         &kp LA(W)         &kp LA(E)         &kp LA(R)             &kp LA(T)     &kp C_VOL_UP      &kp F13         &kp F14           &kp F15           &kp F16  &kp F19  &sl 3
+       &none   &kp LA(A)         &kp LA(S)         &kp LA(D)         &kp LA(F)             &kp LA(G)     &kp LEFT          &kp DOWN        &kp UP            &kp RIGHT         &kp F17  &kp F20
+       &trans  &kp LA(Z)         &kp LA(X)         &kp LA(C)         &kp LA(V)             &kp LA(B)     &kp C_VOL_DN      &kp LS(LCTRL)   &kp LESS_THAN     &kp GREATER_THAN  &kp F18  &kp F21
                                  &kp LS(LCTRL)     &kp LEFT_SHIFT    &mt LEFT_SHIFT SPACE  &lt 3 RET     &kp BACKSPACE     &kp LEFT_SHIFT  &trans            &none
             >;
         };
@@ -123,11 +123,11 @@
 
         layer_4 {
             bindings = <
-           &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)       &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)     &kp LG(N9)   &kp LC(MINUS)  &kp LC(EQUAL)
-&kp LCTRL  &trans  &kp LC(Q)         &kp LC(W)         &kp LC(E)         &kp LC(R)         &kp LC(T)        &kp LC(Y)         &kp LC(U)   &kp LC(I)      &kp LC(O)    &kp LC(P)      &trans         &trans
-           &trans  &kp LC(A)         &kp LC(S)         &kp LC(D)         &kp LC(F)         &kp LC(G)        &kp LC(H)         &kp LC(J)   &kp LC(K)      &kp LC(L)    &kp LC(SEMI)   &trans
-           &trans  &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(B)        &kp LC(N)         &kp LC(M)   &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)   &trans
-                                     &trans            &kp LCTRL         &trans            &kp LG(ENTER)    &trans            &trans      &trans         &trans
+           &kp F24  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)       &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)     &kp LG(N9)   &kp LC(MINUS)  &kp LC(EQUAL)
+&kp LCTRL  &trans   &kp LC(Q)         &kp LC(W)         &kp LC(E)         &kp LC(R)         &kp LC(T)        &kp LC(Y)         &kp LC(U)   &kp LC(I)      &kp LC(O)    &kp LC(P)      &trans         &trans
+           &trans   &kp LC(A)         &kp LC(S)         &kp LC(D)         &kp LC(F)         &kp LC(G)        &kp LC(H)         &kp LC(J)   &kp LC(K)      &kp LC(L)    &kp LC(SEMI)   &trans
+           &trans   &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(B)        &kp LC(N)         &kp LC(M)   &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)   &trans
+                                      &trans            &kp LCTRL         &trans            &kp LG(ENTER)    &trans            &trans      &trans         &trans
             >;
         };
     };
